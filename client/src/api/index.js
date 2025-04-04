@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://fitness-track-back.vercel.app"
+    baseURL: "https://fitness-track-back.vercel.app/api/"
   });
 
 
