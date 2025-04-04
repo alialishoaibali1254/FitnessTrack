@@ -1,8 +1,9 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://fitness-track-back.vercel.app/api/",  // Replace with your backend URL
-});
+    baseURL: "http://localhost:8080/api/"
+  });
+
 
   export const UserSignUp = async (data) => API.post("/user/signup", data);
   export const UserSignIn = async (data) => API.post("/user/signin", data);
